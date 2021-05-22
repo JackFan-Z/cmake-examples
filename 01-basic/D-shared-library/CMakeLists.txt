@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(hello_library)
 
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS TRUE)
 ############################################################
 # Create a library
 ############################################################
